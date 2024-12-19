@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    z-index: 1;
+    position: fixed;
+    top: 0; /* يثبت الهيدر في أعلى الصفحة */
+    z-index: 1;
+}
+header button{
+    width: 270px;
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px white;
+    font-family: "Rubik", sans-serif;
+    transition: 0.5s;
+
+
+}
+header button:hover{
+    color: #07689f;
+    box-shadow: 0px 0px 10px white;
+    font-weight: bold;
+}
+header img{
+    width: 85px;
+    float: left;
+    margin-top: -3px;
+    margin-left: 30px;
+}
+
+section {
+    margin: 100px auto 20px; /* تم تعديل الهامش ليتناسب مع الهيدر */
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+    text-align: right;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #07689f;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: "Rubik", sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+section p, section ul li {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 15px;
+    color: #333;
+    direction: rtl;
+    text-align: right;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 50px;
+    direction: rtl;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* تذييل الصفحة */
+footer {
+    width: 100%;
+    background: #07689f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    position: relative;
+    bottom: 0;
+}
+
+footer a{
+    text-decoration: underline;
+    color: silver;
+
+}

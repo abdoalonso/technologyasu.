@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    z-index: 1;
+}
+header button{
+    width: 220px;
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px whitesmoke;
+    font-family: "Rubik", sans-serif;
+    transition: 0.5s;
+
+
+}
+header button:hover{
+    color: #07689f;
+    box-shadow: 0px 0px 10px silver;
+    font-weight: bold;
+}
+header img{
+    width: 70px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+#imo1{
+    width: 100%;
+    height: 650px;
+    margin-top: 2px;
+    filter: blur(2.5px);
+}
+marquee{
+    position: absolute;
+    top: 180px;
+    left: 800px;
+    color: black;
+    text-align: center;
+    font-size: 38px;
+    width: 500px;
+    height: 80px;
+    font-family: "Rubik", sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    opacity: 0.5;
+}
+main{
+    width: 100%;
+    height: 400px;
+    background: white;
+    margin-top: -4px;
+}
+main h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    margin-top: 25px;
+}
+main img{
+    width: 170px;
+    margin-top: 35px;
+}
+main p{
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 30px;
+    color: gray;
+}
+#d1 div{
+    width: 274px;
+    height: 480px;
+    border: 1px solid silver;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 12px gray;
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-radius: 12px;
+    padding-top: 17px;
+}
+.mission-section h3 {
+    margin-bottom: 15px; /* مسافة بين العنوان والصورة */
+}
+
+.mission-section img {
+    margin-bottom: 8px; /* مسافة بين الصورة والنص */
+}
+
+.mission-section p {
+    line-height: 1.8; /* تحسين تباعد الأسطر داخل النص */
+    margin-top: 2px; /* إذا كنت تريد مسافة إضافية بين الصورة والنص */
+}
+
+.vision-section h3 {
+    margin-bottom: 15px; /* مسافة بين العنوان والصورة */
+}
+
+.vision-section img {
+    margin-bottom: 8px; /* مسافة بين الصورة والنص */
+}
+
+.vision-section p {
+    line-height: 1.8; /* تحسين تباعد الأسطر داخل النص */
+    margin-top: 2px; /* إذا كنت تريد مسافة إضافية بين الصورة والنص */
+}
+
+.goals-section h3 {
+    margin-bottom: 15px; /* مسافة بين العنوان والصورة */
+}
+
+.goals-section img {
+    margin-bottom: 8px; /* مسافة بين الصورة والنص */
+}
+
+.goals-section p {
+    line-height: 1.8; /* تحسين تباعد الأسطر داخل النص */
+    margin-top: 2px; /* إذا كنت تريد مسافة إضافية بين الصورة والنص */
+}
+
+.gayat-section h3 {
+    margin-bottom: 15px; /* مسافة بين العنوان والصورة */
+}
+
+.gayat-section img {
+    margin-bottom: 8px; /* مسافة بين الصورة والنص */
+}
+
+.gayat-section p {
+    line-height: 1.8; /* تحسين تباعد الأسطر داخل النص */
+    margin-top: 2px; /* إذا كنت تريد مسافة إضافية بين الصورة والنص */
+}
+
+footer{
+    width: 100%;
+    height: px;
+    background-color: #2f8f98;
+    margin-top: 700px;
+    clear: both;
+    box-shadow: 0px 0px 12px black;
+
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    position: relative;
+    bottom: 0;
+    color: white;
+}
+
+footer div{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Rubik", sans-serif;
+    font-weight: ;
+    text-align: right;
+    margin-right: 85px;
+    color: black;
+    float: right;
+    line-height: 60px;
+    direction: rtl;
+    
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer div a:hover{
+    color: red;
+
+}
+
+footer a{
+    text-decoration: underline;
+    color: silver;
+
+}
